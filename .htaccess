@@ -1,0 +1,10 @@
+
+# We can't set this flag on one.com
+#php_flag magic_quotes_gpc Off
+
+
+#LoadModule rewrite_module modules/mod_rewrite.so
+RewriteEngine on
+RewriteBase /
+RewriteRule ^(_albums|downloads|ckeditor|fotos|graphics|favicon.png)/? - [L]
+RewriteRule ^(.*)$ index.php?p=$1&%{QUERY_STRING} [L,NC]
