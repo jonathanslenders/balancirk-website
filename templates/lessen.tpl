@@ -2,7 +2,7 @@
 
 {block menu_lessen}selected{/block}
 
-{block "framed_body"}
+{block "body"}
 {* begin edit *}
 <h2>Wekelijkse lessen</h2>
 <p>

@@ -46,7 +46,7 @@ if (function_exists('Dwoo_Plugin_include')===false)
 		<div id="vertical-alignment-tool">&nbsp;</div>
 		<div id="content">
 			<div style="overflow: hidden; ">
-				<a href="/index">
+				<a href="/home">
 					<img src="graphics/intro.jpeg" style="margin: 0 -200px;" alt="Balancirk logo" />
 				</a>
 			</div>

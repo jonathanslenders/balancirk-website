@@ -38,5 +38,4 @@
 	{
 		$dwoo->output("templates/not-found.tpl", array());
 	}
-
 ?>

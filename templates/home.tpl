@@ -1,11 +1,8 @@
 {extends "templates/base.tpl" }
 
-
-{block frame}small-frame{/block}
-
 {block menu_start}selected{/block}
 
-{block "framed_body"}
+{block "body"}
 {* begin edit *}
 	<h2>Welkom</h2>
 
@@ -27,7 +24,9 @@ dan!
 <p>
 Het circusjaar is weer op feestelijke en spektakel-aire manier afgesloten.
 Momenteel werken we aan het nieuwe circusprogramma voor volgend jaar. Dit komt
-in de loop van juni on-line.<br />
+in de loop van juni on-line.
+</p>
+<p>
 We circussen ook verder in de grote vakantie, namelijk in het Kapermolenpark,
 iedere donderdagavond, iedereen welkom! Meer info bij Stan op 0492/947287
 </p>
@@ -75,21 +74,6 @@ Balancirk's <strong>eerste spaghettidag</strong> komt er aan. Zaterdag, 22&nbsp;
 	
 
 -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 {* end edit *}

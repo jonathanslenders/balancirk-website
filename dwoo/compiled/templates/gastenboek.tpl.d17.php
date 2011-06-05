@@ -2,9 +2,11 @@
 /* template head */
 if (function_exists('Dwoo_Plugin_include')===false)
 	$this->getLoader()->loadPlugin('include');
+if (function_exists('Dwoo_Plugin_escape')===false)
+	$this->getLoader()->loadPlugin('escape');
 /* end template head */ ob_start(); /* template body */ ;
 '';// checking for modification in file:templates/base.tpl
-if (!("1300638999" == filemtime('templates/base.tpl'))) { ob_end_clean(); return false; };?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+if (!("1307300873" == filemtime('templates/base.tpl'))) { ob_end_clean(); return false; };?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
 <html xmlns="http://www.w3.org/1999/xhtml"> 
     <head> 
         <meta http-equiv="content-type" content="text/html;charset=utf-8" /> 
@@ -53,22 +55,25 @@ if (!("1300638999" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
             a { color: #c5434f; }
  
  
-            body, html { height: 100%;
-            font-size: 11pt;
-                /*background-color: #69a325;  */
-             background-color: #3e502b; }
+            body, html {
+				min-width: 1000px;
+				height: 100%;
+            	font-size: 11pt;
+             	background-color: #3e502b; }
  
-            #vertical-alignment-tool    { float:left; height:50%; margin-bottom: -420px; }
+            #vertical-alignment-tool { float: left; height:50%; margin-bottom: -420px; }
  
             #container0 { 
 				margin: 0 20px;
+				padding: 0;
                 clear: both;
                 background-color: #eff9d0;
 				/* border: 1px solid #eff9d0;*/
 				border: 1px solid #3e502b;
+				overflow: hidden;
 				}
             #container1 { 
-				margin-top: -74px;
+				margin-top: -77px;
                 background-image: url('graphics/background-right.png');
                 background-position: right center; background-repeat: no-repeat;}
             #container2 {
@@ -76,37 +81,41 @@ if (!("1300638999" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
                 background-image: url('graphics/background-left.png');
                 background-position: left center; background-repeat: no-repeat; }
             #container3 {
-                min-height: 500px; padding: 100px 30px 0px 80px; }
+                min-height: 500px; padding: 100px 30px 0px 65px; }
 
 			.copyright { background-color: #df2b1e; padding: 3px 20px 3px 150px; color: white; font-size: 90%; }
 
 
-            ul#menu { margin: 40px 0 6px 100px; padding-left: 30px; padding-right: 150px;
-						text-align: left; background-color: #df2b1e;
+            ul#menu { margin: 40px 0px 6px 80px; padding-right: 150px;
+					padding-left: 1px;
+						text-align: left;
+						background-color: #df2b1e;
 						height: 30px;
 						list-style-type: none; }
             ul#menu li {
                     position: relative;
-                    line-height: 29px;
+                    line-height: 30px;
+                    display: inline;
                     display: inline-block;
                     background-image: url('graphics/menu_separator.png');
                     background-repeat: repeat-y;
                     background-position: left center;
                     padding: 0 16px 0 25px;
-}
+					}
+
             ul#menu li a { color: white;}
             ul#menu li a:hover { color: #eff9d0; text-decoration: none; }
             ul#menu li.first { background-image: none; }
  
             ul#menu li ul { display: none; 
                     background-color: #df2b1e;
-                    background-position: left top;
-            }
+					}
  
             ul#menu li:hover ul {
                     display: block;
                     position: absolute;
                     left: -1px;
+					z-index: 100;
                     }
             ul#menu li ul li { margin: 0; padding: 0; 
                 background-image: none;
@@ -121,15 +130,20 @@ if (!("1300638999" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
                     background-image: none; }
  
             #content {
+					padding-right: 280px;
                     color: #68a323;
-                    overflow: auto;
+					height: 630px;
                     overflow-x: hidden;
                     -ms-overflow-x: hidden;
+                    overflow: auto;
                     }
- 
+            #content2 {
+					margin-left: 40px;
+					}
+
             #content table td, #content table th { color: #5d7f2b; }
             #content table.transparent td { background-color: transparent; color: #68a323; }
-            #content p, #content ul { margin: 1em 0; }
+            #content p, #content ul { margin-top: 1em; margin-bottom: 1em; }
             #content h2 { font-size: 130%; font-weight: bold; }
             #content h3 { font-size: 100%; font-weight: bold; }
             #content a { text-decoration: none; }
@@ -144,6 +158,8 @@ if (!("1300638999" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
             #content dt { margin-left: 20px; font-weight: bold; }
             #content dd { margin: 0 0 20px 40px; }
             #content ul li { list-style-type: square; margin-left: 30px; }
+
+			p.foto, div#picture-list { margin-left: -40px; padding-left: 0; }
  
             /* Forms */
             input, textarea{ border: 1px solid white; background-color: white; }
@@ -184,6 +200,14 @@ if (!("1300638999" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
 				.weird_shape div { background-color: blue; opacity: .2; }
 */
  
+			
+#content dl.gastenboek dt span { font-size: 70%; font-weight: normal; }
+#content dl.gastenboek dd { border-bottom: 1px solid #cccccc; }
+form.gastenboek { border-top: 2px solid  rgb(126,177,43); }
+
+.form-table { width: 90%; }
+.form-table input { width: 100%; }
+.form-table textarea { width: 100%; }
         </style> 
             
         <!--[if IE 7]>
@@ -206,7 +230,6 @@ if (!("1300638999" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
                 /* img, div { behavior: url(downloads/iepngfix.htc); } */ 
             </style>
         <![endif]--> 
- 
  
  
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script> 
@@ -245,32 +268,104 @@ if (!("1300638999" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
 			<div id="container1"> 
 			<div id="container2"> 
 			<div id="container3"> 
-            <div id="content" > 
+				<div id="content">  <!-- For scrolling -->
+				<div id="content2"> <!-- margin -->
 
-				<?php if ((isset($this->scope["authenticated"]) ? $this->scope["authenticated"] : null)) {
+
+					<?php if ((isset($this->scope["authenticated"]) ? $this->scope["authenticated"] : null)) {
 ?>
-					<?php echo Dwoo_Plugin_include($this, "templates/_edit.tpl", null, null, null, '_root', null);?>
+						<?php echo Dwoo_Plugin_include($this, "templates/_edit.tpl", null, null, null, '_root', null);?>
 
-				<?php 
+					<?php 
 }?>
 
 
-								
-            </div> 
+										
+						<h2>Gastenboek</h2>
+	<p>
+		Hieronder kan je een berichtje in ons gastenboek achterlaten.
+	</p>
+
+	<dl class="gastenboek">
+	<?php 
+$_loop0_data = (isset($this->scope["messages"]) ? $this->scope["messages"] : null);
+if ($this->isArray($_loop0_data) === true)
+{
+	foreach ($_loop0_data as $tmp_key => $this->scope["-loop-"])
+	{
+		$_loop0_scope = $this->setScope(array("-loop-"));
+/* -- loop start output */
+?>
+		<dt><?php echo Dwoo_Plugin_escape($this, (isset($this->scope["naam"]) ? $this->scope["naam"] : null), 'html', null);?><span> (<?php echo Dwoo_Plugin_escape($this, (isset($this->scope["formatted_tijd"]) ? $this->scope["formatted_tijd"] : null), 'html', null);?>)</span>
+			
+		<?php if ((isset($this->scope["authenticated"]) ? $this->scope["authenticated"] : null)) {
+?>
+			<span style="background-color: black; padding: 5px; " >
+				<a style="color: white; " href="?verwijder=<?php echo Dwoo_Plugin_escape($this, (isset($this->scope["tijd"]) ? $this->scope["tijd"] : null), 'html', null);?>">Verwijder</a>
+			</span>
+		<?php 
+}?>
+
+
+		</dt>
+		<dd><?php echo nl2br((string) Dwoo_Plugin_escape($this, (isset($this->scope["boodschap"]) ? $this->scope["boodschap"] : null), 'html', null));?></dd>
+	<?php 
+/* -- loop end output */
+		$this->setScope($_loop0_scope, true);
+	}
+}
+?>
+
+	</dl>
+
+	<?php if ((isset($this->scope["error"]) ? $this->scope["error"] : null)) {
+?>
+	<p class="error">Gelieve alle veldjes in te vullen</p>
+	<?php 
+}?>
+
+
+	<?php if ((isset($this->scope["using_urls"]) ? $this->scope["using_urls"] : null)) {
+?>
+	<p class="error">Gelieve geen hyperlinks in een bericht te plaatsen (of verwijder http://)</p>
+	<?php 
+}?>
+
+
+	<form class="gastenboek" method="post" action="?">
+		<table class="form-table">
+			<tr>
+				<th><label for="i_naam">Naam:</label></th>
+				<td><input id="i_naam" name="naam" type="text" value="<?php echo Dwoo_Plugin_escape($this, (isset($this->scope["naam"]) ? $this->scope["naam"] : null), 'html', null);?>"/></td>
+			</tr>
+			<tr>
+				<th><label for="i_boodschap">Boodschap</label></th>
+				<td><textarea rows="8" name="boodschap" id="i_boodschap"><?php echo Dwoo_Plugin_escape($this, (isset($this->scope["boodschap"]) ? $this->scope["boodschap"] : null), 'html', null);?></textarea></td>
+			</tr>
+		</table>
+
+		<p class="input-submit">
+			<input type="hidden" name="send" value="true" />
+			<input type="hidden" name="captcha" value="captcha" />
+			<input type="submit" value="Neerschrijven in gastenboek" /></p>
+	</form>
+				</div> 
+            	</div> 
  
-                <div style="position: relative; margin: 0 0 0 0; width: 805px; "> 
-                    <p style="margin-left: 90px; "> 
-                        <a href="/index"><img src="graphics/address.png" style="width: 500px;" alt="Balancirk adres" /></a> 
+                <div style="position: relative; margin: 10px 0 0 0; "> 
+                    <p style="margin-left: 70px; "> 
+                        <a href="/home"><img src="graphics/address.png" style="width: 500px;" alt="Balancirk adres" /></a> 
                     </p> 
- 
             	</div> 
             </div> 
- 
         </div> 
         </div> 
 
 			<div class="copyright">
-				Copyright &copy; 2010 - BalanCirk vzw - Illustratie en grafisch ontwerp &copy; Inger Swinnen 2010
+				<img src="graphics/footer.png" style="margin: -3px 0;padding:0;"/>
+				<!--googleoff: all-->
+				<!--Copyright &copy; 2010 - BalanCirk vzw - Illustratie en grafisch ontwerp &copy; Inger Swinnen 2010 -->
+				<!--googleon: all-->
 			</div>
         </div> 
     </body> 
