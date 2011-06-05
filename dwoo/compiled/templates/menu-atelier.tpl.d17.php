@@ -4,7 +4,7 @@ if (function_exists('Dwoo_Plugin_include')===false)
 	$this->getLoader()->loadPlugin('include');
 /* end template head */ ob_start(); /* template body */ ;
 '';// checking for modification in file:templates/base.tpl
-if (!("1307300162" == filemtime('templates/base.tpl'))) { ob_end_clean(); return false; };?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+if (!("1307302062" == filemtime('templates/base.tpl'))) { ob_end_clean(); return false; };?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
 <html xmlns="http://www.w3.org/1999/xhtml"> 
     <head> 
         <meta http-equiv="content-type" content="text/html;charset=utf-8" /> 
@@ -128,16 +128,16 @@ if (!("1307300162" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
                     background-image: none; }
  
             #content {
-					padding-right: 270px;
+					padding-right: 280px;
                     color: #68a323;
 					height: 630px;
                     overflow-x: hidden;
                     -ms-overflow-x: hidden;
                     overflow: auto;
                     }
- 
- 			#content p, #content h2, #content ul { margin-left: 40px; }
- 			#content p.foto { margin-left: 0px; }
+            #content2 {
+					margin-left: 40px;
+					}
 
             #content table td, #content table th { color: #5d7f2b; }
             #content table.transparent td { background-color: transparent; color: #68a323; }
@@ -156,6 +156,8 @@ if (!("1307300162" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
             #content dt { margin-left: 20px; font-weight: bold; }
             #content dd { margin: 0 0 20px 40px; }
             #content ul li { list-style-type: square; margin-left: 30px; }
+
+			p.foto, div#picture-list { margin-left: -40px; padding-left: 0; }
  
             /* Forms */
             input, textarea{ border: 1px solid white; background-color: white; }
@@ -203,12 +205,16 @@ if (!("1307300162" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
             <style type="text/css">
                 ul#menu li { display: inline; }
                 ul#menu li a { text-decoration: none; }
-                ul#menu li ul { top: 100%; }
+                /* ul#menu li ul { top: 100%; } */
             </style>
         <![endif]--> 
  
         <!--[if IE 6]>
             <style type="text/css">
+				#menu { position: absolute;
+					top: 0px;
+				}
+				#container3 { padding-top: 150px; }
                 #menu li { background: none transparent !important; }
                 #menu li {  float: left; width: 120px; margin: 0 -10px; padding: 0; background-image: none; }
                 #menu li.menu_links, #menu li.menu_contact {  width: 80px; }
@@ -257,7 +263,8 @@ if (!("1307300162" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
 			<div id="container1"> 
 			<div id="container2"> 
 			<div id="container3"> 
-				<div id="content" > 
+				<div id="content">  <!-- For scrolling -->
+				<div id="content2"> <!-- margin -->
 
 
 					<?php if ((isset($this->scope["authenticated"]) ? $this->scope["authenticated"] : null)) {
@@ -281,8 +288,9 @@ if (!("1307300162" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
 		<li><a href="/visie">Visie</a></li>
 	</ul>
 				</div> 
+            	</div> 
  
-                <div style="position: relative; margin: 0 0 0 0; "> 
+                <div style="position: relative; margin: 10px 0 0 0; "> 
                     <p style="margin-left: 70px; "> 
                         <a href="/home"><img src="graphics/address.png" style="width: 500px;" alt="Balancirk adres" /></a> 
                     </p> 

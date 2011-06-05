@@ -6,7 +6,7 @@ if (function_exists('Dwoo_Plugin_escape')===false)
 	$this->getLoader()->loadPlugin('escape');
 /* end template head */ ob_start(); /* template body */ ;
 '';// checking for modification in file:templates/base.tpl
-if (!("1307300873" == filemtime('templates/base.tpl'))) { ob_end_clean(); return false; };?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+if (!("1307302062" == filemtime('templates/base.tpl'))) { ob_end_clean(); return false; };?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
 <html xmlns="http://www.w3.org/1999/xhtml"> 
     <head> 
         <meta http-equiv="content-type" content="text/html;charset=utf-8" /> 
@@ -214,12 +214,16 @@ form.gastenboek { border-top: 2px solid  rgb(126,177,43); }
             <style type="text/css">
                 ul#menu li { display: inline; }
                 ul#menu li a { text-decoration: none; }
-                ul#menu li ul { top: 100%; }
+                /* ul#menu li ul { top: 100%; } */
             </style>
         <![endif]--> 
  
         <!--[if IE 6]>
             <style type="text/css">
+				#menu { position: absolute;
+					top: 0px;
+				}
+				#container3 { padding-top: 150px; }
                 #menu li { background: none transparent !important; }
                 #menu li {  float: left; width: 120px; margin: 0 -10px; padding: 0; background-image: none; }
                 #menu li.menu_links, #menu li.menu_contact {  width: 80px; }
