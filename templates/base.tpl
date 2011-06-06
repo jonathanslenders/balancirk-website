@@ -48,6 +48,8 @@
  
  
             body, html {
+				margin: 0;
+				padding: 0;
 				min-width: 1000px;
 				height: 100%;
             	font-size: 11pt;
@@ -67,13 +69,15 @@
             #container1 { 
 				margin-top: -77px;
                 background-image: url('graphics/background-right.png');
-                background-position: right center; background-repeat: no-repeat;}
+                background-position: right bottom; background-repeat: no-repeat;}
             #container2 {
 				height: 800px;
                 background-image: url('graphics/background-left.png');
                 background-position: left center; background-repeat: no-repeat; }
             #container3 {
-                min-height: 500px; padding: 100px 0 0 65px; }
+  /*              min-height: 500px;
+*/
+		padding: 100px 0 0 65px; }
 
 			.copyright { background-color: #df2b1e; padding: 3px 20px 3px 150px; color: white; font-size: 90%; }
 
@@ -189,7 +193,7 @@
  
             
 /*
-				.weird_shape div { background-color: blue; opacity: .2; }
+		.weird_shape div { background-color: blue; opacity: .2; }
 */
  
 			{block css}{/block}
@@ -312,6 +316,29 @@
 				<!--googleon: all-->
 			</div>
         </div> 
+		<script type="text/javascript">
+			/* Auto scale height */
+			(function() {
+				function scale () {
+					var height = $('body').height();
+
+					if (height < 800)
+					{
+						$('#container2').height(height - 35);
+						$('#content').height(height - 35 - 170);
+						$('#vertical-alignment-tool').css('margin-bottom', -(height/2 -5));
+					}
+					else
+					{
+						$('#container2').height('');
+						$('#content').height('');
+						$('#vertical-alignment-tool').css('margin-bottom', '');
+					}
+				}
+				$(window).resize(scale);
+				scale();
+			})();
+		</script>
     </body> 
 </html> 
  
