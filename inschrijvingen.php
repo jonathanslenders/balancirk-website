@@ -25,8 +25,8 @@
 					"=============================================\r\n" .
 					$opmerkingen;
 
-				mail('jonathan' . '@' . 'slenders.be', 'Inschrijvingsformulier 2009 - 2010 balancirk.be', $message);
-				mail('info' . '@' . 'balancirk.be', 'Inschrijvingsformulier 2009 - 2010 balancirk.be', $message);
+				mail('jonathan' . '@' . 'slenders.be', 'Inschrijvingsformulier 2011 - 2012 balancirk.be', $message);
+				mail('info' . '@' . 'balancirk.be', 'Inschrijvingsformulier 2011 - 2012 balancirk.be', $message);
 				$naam = $email = $tel = $opmerkingen = '';
 				$verzonden = true;
 			}

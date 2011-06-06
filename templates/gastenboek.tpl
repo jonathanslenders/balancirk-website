@@ -16,14 +16,14 @@ form.gastenboek { border-top: 2px solid  rgb(126,177,43); }
 {block "framed_body"}
 	<h2>Gastenboek</h2>
 	<p>
-		Hieronder kan je een berichtje in ons gastenboek achterlaten.
+		<a href="#nieuw-bericht">Laat ook een berichtje achter &raquo;</a>
 	</p>
 
 	<dl class="gastenboek">
 	{loop $messages}
 		<dt>{$naam|escape}<span> ({$formatted_tijd|escape})</span>
 			
-		{if $authenticated}
+		{if $authenticated }
 			<span style="background-color: black; padding: 5px; " >
 				<a style="color: white; " href="?verwijder={$tijd|escape}">Verwijder</a>
 			</span>
@@ -43,7 +43,7 @@ form.gastenboek { border-top: 2px solid  rgb(126,177,43); }
 	{/if}
 
 	<form class="gastenboek" method="post" action="?">
-		<table class="form-table">
+		<table class="form-table" id="nieuw-bericht">
 			<tr>
 				<th><label for="i_naam">Naam:</label></th>
 				<td><input id="i_naam" name="naam" type="text" value="{$naam|escape}"/></td>

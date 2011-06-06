@@ -30,6 +30,18 @@
 					addslashes($_REQUEST['naam']) . "', '" .
 					addslashes($_REQUEST['boodschap']) . "');")
 		or die (mysql_error());
+
+
+		// mail een kopie
+		$message =
+			"=============================================\r\n" .
+			'Naam: ' . $naam . "\r\n" .
+			"=============================================\r\n" .
+			$_REQUEST['boodschap'];
+
+		mail('jonathan' . '@' . 'slenders.be', 'Gastenboek balancirk.be', $message);
+		mail('info' . '@' . 'balancirk.be', 'Gastenboek balancirk.be', $message);
+
 		$verzonden = true;
 		$naam = '';
 		$boodschap = '';
@@ -52,9 +64,13 @@
 		array_push($messages,
 			Array(
 				'naam' => $row['naam'],
-				'formatted_tijd' => date('d/m H:i', $row['tijd']),
+				'formatted_tijd' => date('d/m/y H:i', $row['tijd']),
 				'tijd' => $row['tijd'],
-				'boodschap' => str_replace('@', '( at )', $row['boodschap'])
+				'boodschap' => str_replace('@', '( at )', $row['boodschap']),
+
+				'authenticated' => $_SESSION['authenticated'],
+							// we need to add this variable because of a weirdness in the template engine
+							// otherwise, we won't see the 'delete' links behind every message.
 				));
 	}
 
@@ -64,7 +80,8 @@
 		'error' => $error,
 		'naam' => $naam,
 		'boodschap' => $boodschap,
-		'using_urls' => (strpos($_REQUEST['boodschap'], 'http://') !== false)
+		'using_urls' => (strpos($_REQUEST['boodschap'], 'http://') !== false),
+		'authenticated' => $_SESSION['authenticated'],
 		);
 
 
