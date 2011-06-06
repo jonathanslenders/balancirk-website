@@ -73,7 +73,7 @@
                 background-image: url('graphics/background-left.png');
                 background-position: left center; background-repeat: no-repeat; }
             #container3 {
-                min-height: 500px; padding: 100px 30px 0px 65px; }
+                min-height: 500px; padding: 100px 0 0 65px; }
 
 			.copyright { background-color: #df2b1e; padding: 3px 20px 3px 150px; color: white; font-size: 90%; }
 
@@ -122,7 +122,7 @@
                     background-image: none; }
  
             #content {
-					padding-right: 280px;
+					padding-right: 310px;
                     color: #68a323;
 					height: 630px;
                     overflow-x: hidden;
@@ -177,7 +177,7 @@
                 padding: .2em;
                 background-image: url("/graphics/40p.png");
             }
-            div#picture-list span img { padding-top: .5em; }
+            div#picture-list span img { padding-top: .5em; vertical-align: middle; padding: 4px; }
  
             div#picture-list span a { font-weight: bold; text-decoration: none; }
             div#picture-list span a:hover { text-decoration: none; }

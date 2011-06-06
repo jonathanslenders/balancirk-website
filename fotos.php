@@ -4,7 +4,7 @@
 		return Array(
 			Array(
 					'album' => '2011-show-mei',
-					'cover' => 'DSC_5868.jpg',
+					'cover' => 'DSC_5997.jpg',
 					'title' => 'Eindshow 2011'),
 			Array(
 					'album' => '2010-lessen-2',
