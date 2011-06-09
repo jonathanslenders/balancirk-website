@@ -32,9 +32,15 @@ iedere donderdagavond, iedereen welkom! Meer info bij Stan op 0492/947287
 </p>
 
 
-<p><a href="/kampen-en-stages"><strong>Nieuwe kampen voor de zomer van 2011!!</strong> &raquo;</a></p>
+<p><a href="/kampen-en-stages"><strong>Kampen voor de zomer van 2011!!</strong> &raquo;</a></p>
 
 <p>
+<strong><a href="/lessen">Lessen voor 2011-2012 &raquo;</a></strong>
+</p>
+
+
+<p>
+<br />
 <strong><a href="/album?album=2011-show-mei">Bekijk de foto's van onze eindshow &raquo;</a></strong>
 </p>
 
