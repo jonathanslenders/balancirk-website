@@ -138,12 +138,6 @@
 
 
 <h3 id="dinsdagavond">Dinsdagavond: beginners en gevorderden</h3>
-<table style="margin: 10px 40px;">
-	<tr><td>Beginners-groep 1</td><td>17u45-19u00</td></tr>
-	<tr class="odd"><td>Gevorderden</td><td>19u15-20u30</td></tr>
-	<tr><td>Vrij oefenen</td><td>20u30-21u30</td></tr>
-</table>
-
 <p>
 We werken per niveau met een minimumleeftijd van 7 jaar en een maximum aantal
 van 20 kinderen. Ons voltallig circusteam zal zich inzetten om de lessen in
@@ -169,11 +163,6 @@ centraal. Samenwerking, creativiteit en natuurlijk plezier maken vinden we
 belangrijk.  </p>
 
 <h3 id="circomotoriek">Zondagvoormiddag: Circomotoriek</h3>
-<table style="margin: 10px 40px;">
-	<tr><td>Circomotoriek</td><td>10u00-10u45</td></tr>
-	<tr class="odd"><td>Beginners-groep 2</td><td>11u00-12u15</td></tr>
-</table>
-
 <p>
 In deze lesjes ontdekken kleuters samen met hun ouder spelenderwijs hun lichaam
 en omgeving. Ontwikkelen is groeien naar vrijheid en zelfstandigheid binnen de
@@ -195,7 +184,7 @@ Niels Knaepen begeleiden deze lessen met de ondersteuning van Stan.
 .</p>
 
 
-<h3 id="productiegroep">Produktiegroep</h3>
+<h3 id="productiegroep">Productiegroep</h3>
 <p>
 	Komend jaar willen we voor degenen die echt naar een circusshow willen
 	toewerken, verzamelen in de produktiegroep. Een grondige basiskennis is
