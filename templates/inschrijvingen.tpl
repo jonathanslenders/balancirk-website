@@ -24,7 +24,7 @@
 			</p>
 			<p>
 				Tijdens de maand september kan er vrij kennis gemaakt worden
-				met het circusatelier.
+				met het circusatelier.<br />Daarna betaal je <a href="/lidgeld">Lidgeld</a>.
 			</p>
 			<table class="form-table" style="width: 90%;">
 				<tr>

@@ -6,15 +6,19 @@
 {* begin edit *}
 	<h2>Lidgeld</h2>
 	<p>
-		Het lidgeld voor de lessen van het schooljaar 2010 - 2011, is inclusief verzekering: (nog onder voorbehoud)
+		Het lidgeld voor de lessen van het schooljaar 2011 - 2012, kun je
+		met de volgende tabel berekenen. Het is inclusief verzekering: (nog
+		onder voorbehoud)
 	</p>
 	<table style="margin: 10px 40px;">
-		<tr><td>1ste kind</td><td>140 euro voor een heel schooljaar</td></tr>
-		<tr class="odd"><td>Vanaf tweede kind <br />(of ander lid van hetzelfde
-			gezin)</td><td>100 euro per schooljaar</td></tr>
-		<tr><td>Vrij oefenen</td><td>50 euro per schooljaar</td></tr>
-		<tr class="odd"><td>Circomotoriek (<a href="/lessen#circomotoriek">meer info</a>)</td><td>50 euro voor 10 lessen (ouder en kind)</td></tr>
+		<tr><td>1u</td><td>140 euro voor een heel schooljaar</td></tr>
+		<tr class="odd"><td>1u15</td><td>155 euro per schooljaar</td></tr>
+		<tr><td>1u30</td><td>170 euro per schooljaar</td></tr>
 	</table>
+
+	<p>
+		Voor het <strong>2de kind en/of 2de les</strong> betaal je standaard <strong>115 euro</strong>.
+	</p>
 
 	<p>BalanCirk is lid van <a target="_blank" href="http://www.circuscentrum.be">Circuscentrum vzw</a>
 	dat zorgt voor de nodige ondersteuning van de verschillende
