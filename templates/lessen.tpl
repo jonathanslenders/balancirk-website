@@ -169,19 +169,7 @@ en omgeving. Ontwikkelen is groeien naar vrijheid en zelfstandigheid binnen de
 grenzen van de eigen talenten en mogelijkheden. Hiertoe moet men zich goed in
 zijn vel voelen. De circomotoriek ondersteunt en stimuleert dit proces.</p>
 
-<p>
-	Er worden twee reeksen van tien lessen gegeven, waarbij er telkens
-	plaats is voor tien kleuters met hun ouder:
-</p>
-
-<table style="margin: 10px 40px;">
-	<tr><td>Van 1 september tot december</td></tr>
-	<tr class="odd"><td>Van 2 januari tot mei</td></tr>
-</table>
-
-<p>Wij verwelkomen alle kleuters vanaf geboortejaar 2007 met hun ouder. Aat en
-Niels Knaepen begeleiden deze lessen met de ondersteuning van Stan.
-.</p>
+<p>Wij verwelkomen alle kleuters vanaf geboortejaar 2008 met hun ouder.</p>
 
 
 <h3 id="productiegroep">Productiegroep</h3>

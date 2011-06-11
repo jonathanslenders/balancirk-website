@@ -7,8 +7,7 @@
 	<h2>Lidgeld</h2>
 	<p>
 		Het lidgeld voor de lessen van het schooljaar 2011 - 2012, kun je
-		met de volgende tabel berekenen. Het is inclusief verzekering: (nog
-		onder voorbehoud)
+		met de volgende tabel berekenen. Het is inclusief verzekering.
 	</p>
 	<table style="margin: 10px 40px;">
 		<tr><td>1u</td><td>140 euro voor een heel schooljaar</td></tr>
