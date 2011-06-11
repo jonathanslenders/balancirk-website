@@ -4,31 +4,14 @@ if (function_exists('Dwoo_Plugin_include')===false)
 	$this->getLoader()->loadPlugin('include');
 /* end template head */ ob_start(); /* template body */ ;
 '';// checking for modification in file:templates/base.tpl
-if (!("1307300618" == filemtime('templates/base.tpl'))) { ob_end_clean(); return false; };?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+if (!("1307470127" == filemtime('templates/base.tpl'))) { ob_end_clean(); return false; };?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
 <html xmlns="http://www.w3.org/1999/xhtml"> 
     <head> 
         <meta http-equiv="content-type" content="text/html;charset=utf-8" /> 
         <title>Balancirk</title> 
- 
-        <!--
-    ====================================================================================
- 
-    www.balancirk.be website:
-        - Grafisch ontwerp: Copyright (c) 2010 - I. Swinnen
-        - HTML/CSS: Jonathan Slenders
-        - Tekst-inhoud: Balancirk VZW
- 
-    Niets van deze website mag gekopieerd worden zonder toestemming van Balancirk.
- 
-    ====================================================================================
---> 
-<meta name="author" content="Balancirk" /> 
-<meta name="keywords" content="balancirk, ballancirk,
-    ballancirque, balancirque, ballencirk, circus, belgie, limburg" /> 
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
-<link rel="shortcut icon" href="/favicon.png" type="image/png" /> 
-<link rel="icon" href="/favicon.png" type="image/png" /> 
-<meta name="description" content="Balancirk - gedreven door de magie van het circus!" /> 
+
+	<?php echo Dwoo_Plugin_include($this, 'meta.tpl', null, null, null, '_root', null);?>
+
  
  
         <style type="text/css" media="screen"> 
@@ -54,6 +37,8 @@ if (!("1307300618" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
  
  
             body, html {
+				margin: 0;
+				padding: 0;
 				min-width: 1000px;
 				height: 100%;
             	font-size: 11pt;
@@ -73,13 +58,15 @@ if (!("1307300618" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
             #container1 { 
 				margin-top: -77px;
                 background-image: url('graphics/background-right.png');
-                background-position: right center; background-repeat: no-repeat;}
+                background-position: right bottom; background-repeat: no-repeat;}
             #container2 {
 				height: 800px;
                 background-image: url('graphics/background-left.png');
                 background-position: left center; background-repeat: no-repeat; }
             #container3 {
-                min-height: 500px; padding: 100px 30px 0px 65px; }
+  /*              min-height: 500px;
+*/
+		padding: 100px 0 0 65px; }
 
 			.copyright { background-color: #df2b1e; padding: 3px 20px 3px 150px; color: white; font-size: 90%; }
 
@@ -128,14 +115,16 @@ if (!("1307300618" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
                     background-image: none; }
  
             #content {
-					margin-left: 40px;
-					padding-right: 280px;
+					padding-right: 310px;
                     color: #68a323;
 					height: 630px;
                     overflow-x: hidden;
                     -ms-overflow-x: hidden;
                     overflow: auto;
                     }
+            #content2 {
+					margin-left: 40px;
+					}
 
             #content table td, #content table th { color: #5d7f2b; }
             #content table.transparent td { background-color: transparent; color: #68a323; }
@@ -154,6 +143,8 @@ if (!("1307300618" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
             #content dt { margin-left: 20px; font-weight: bold; }
             #content dd { margin: 0 0 20px 40px; }
             #content ul li { list-style-type: square; margin-left: 30px; }
+
+			p.foto, div#picture-list { margin-left: -40px; padding-left: 0; }
  
             /* Forms */
             input, textarea{ border: 1px solid white; background-color: white; }
@@ -179,7 +170,7 @@ if (!("1307300618" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
                 padding: .2em;
                 background-image: url("/graphics/40p.png");
             }
-            div#picture-list span img { padding-top: .5em; }
+            div#picture-list span img { padding-top: .5em; vertical-align: middle; padding: 4px; }
  
             div#picture-list span a { font-weight: bold; text-decoration: none; }
             div#picture-list span a:hover { text-decoration: none; }
@@ -191,7 +182,7 @@ if (!("1307300618" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
  
             
 /*
-				.weird_shape div { background-color: blue; opacity: .2; }
+		.weird_shape div { background-color: blue; opacity: .2; }
 */
  
 			
@@ -201,12 +192,16 @@ if (!("1307300618" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
             <style type="text/css">
                 ul#menu li { display: inline; }
                 ul#menu li a { text-decoration: none; }
-                ul#menu li ul { top: 100%; }
+                /* ul#menu li ul { top: 100%; } */
             </style>
         <![endif]--> 
  
         <!--[if IE 6]>
             <style type="text/css">
+				#menu { position: absolute;
+					top: -30px;
+				}
+				#container3 { padding-top: 140px; }
                 #menu li { background: none transparent !important; }
                 #menu li {  float: left; width: 120px; margin: 0 -10px; padding: 0; background-image: none; }
                 #menu li.menu_links, #menu li.menu_contact {  width: 80px; }
@@ -217,7 +212,6 @@ if (!("1307300618" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
                 /* img, div { behavior: url(downloads/iepngfix.htc); } */ 
             </style>
         <![endif]--> 
- 
  
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script> 
     </head> 
@@ -255,7 +249,8 @@ if (!("1307300618" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
 			<div id="container1"> 
 			<div id="container2"> 
 			<div id="container3"> 
-				<div id="content" > 
+				<div id="content">  <!-- For scrolling -->
+				<div id="content2"> <!-- margin -->
 
 
 					<?php if ((isset($this->scope["authenticated"]) ? $this->scope["authenticated"] : null)) {
@@ -272,6 +267,7 @@ if (!("1307300618" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
 		Onze excuses, die pagina die je zocht werd niet gevonden.
 	</p>
 				</div> 
+            	</div> 
  
                 <div style="position: relative; margin: 10px 0 0 0; "> 
                     <p style="margin-left: 70px; "> 
@@ -289,6 +285,29 @@ if (!("1307300618" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
 				<!--googleon: all-->
 			</div>
         </div> 
+		<script type="text/javascript">
+			/* Auto scale height */
+			(function() {
+				function scale () {
+					var height = $('body').height();
+
+					if (height < 800)
+					{
+						$('#container2').height(height - 35);
+						$('#content').height(height - 35 - 170);
+						$('#vertical-alignment-tool').css('margin-bottom', -(height/2 -5));
+					}
+					else
+					{
+						$('#container2').height('');
+						$('#content').height('');
+						$('#vertical-alignment-tool').css('margin-bottom', '');
+					}
+				}
+				$(window).resize(scale);
+				scale();
+			})();
+		</script>
     </body> 
 </html> 
  

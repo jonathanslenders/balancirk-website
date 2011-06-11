@@ -4,7 +4,7 @@ if (function_exists('Dwoo_Plugin_include')===false)
 	$this->getLoader()->loadPlugin('include');
 /* end template head */ ob_start(); /* template body */ ;
 '';// checking for modification in file:templates/base.tpl
-if (!("1307302062" == filemtime('templates/base.tpl'))) { ob_end_clean(); return false; };?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+if (!("1307387543" == filemtime('templates/base.tpl'))) { ob_end_clean(); return false; };?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
 <html xmlns="http://www.w3.org/1999/xhtml"> 
     <head> 
         <meta http-equiv="content-type" content="text/html;charset=utf-8" /> 
@@ -54,6 +54,8 @@ if (!("1307302062" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
  
  
             body, html {
+				margin: 0;
+				padding: 0;
 				min-width: 1000px;
 				height: 100%;
             	font-size: 11pt;
@@ -79,7 +81,9 @@ if (!("1307302062" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
                 background-image: url('graphics/background-left.png');
                 background-position: left center; background-repeat: no-repeat; }
             #container3 {
-                min-height: 500px; padding: 100px 30px 0px 65px; }
+  /*              min-height: 500px;
+*/
+		padding: 100px 0 0 65px; }
 
 			.copyright { background-color: #df2b1e; padding: 3px 20px 3px 150px; color: white; font-size: 90%; }
 
@@ -128,7 +132,7 @@ if (!("1307302062" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
                     background-image: none; }
  
             #content {
-					padding-right: 280px;
+					padding-right: 310px;
                     color: #68a323;
 					height: 630px;
                     overflow-x: hidden;
@@ -183,7 +187,7 @@ if (!("1307302062" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
                 padding: .2em;
                 background-image: url("/graphics/40p.png");
             }
-            div#picture-list span img { padding-top: .5em; }
+            div#picture-list span img { padding-top: .5em; vertical-align: middle; padding: 4px; }
  
             div#picture-list span a { font-weight: bold; text-decoration: none; }
             div#picture-list span a:hover { text-decoration: none; }
@@ -212,9 +216,9 @@ if (!("1307302062" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
         <!--[if IE 6]>
             <style type="text/css">
 				#menu { position: absolute;
-					top: 0px;
+					top: -30px;
 				}
-				#container3 { padding-top: 150px; }
+				#container3 { padding-top: 140px; }
                 #menu li { background: none transparent !important; }
                 #menu li {  float: left; width: 120px; margin: 0 -10px; padding: 0; background-image: none; }
                 #menu li.menu_links, #menu li.menu_contact {  width: 80px; }
@@ -225,7 +229,6 @@ if (!("1307302062" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
                 /* img, div { behavior: url(downloads/iepngfix.htc); } */ 
             </style>
         <![endif]--> 
- 
  
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script> 
     </head> 
@@ -306,6 +309,28 @@ if (!("1307302062" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
 				<!--googleon: all-->
 			</div>
         </div> 
+		<script type="text/javascript">
+			(function() {
+				function scale () {
+					var height = $('body').height();
+
+					if (height < 800)
+					{
+						$('#container2').height(height - 35);
+						$('#content').height(height - 35 - 170);
+						$('#vertical-alignment-tool').css('margin-bottom', -(height/2 -5));
+					}
+					else
+					{
+						$('#container2').height('');
+						$('#content').height('');
+						$('#vertical-alignment-tool').css('margin-bottom', '');
+					}
+				}
+				$(window).resize(scale);
+				scale();
+			})();
+		</script>
     </body> 
 </html> 
  

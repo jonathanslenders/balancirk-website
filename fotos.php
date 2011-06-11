@@ -7,6 +7,10 @@
 					'cover' => 'DSC_5997.jpg',
 					'title' => 'Eindshow 2011'),
 			Array(
+					'album' => '2010-lessen-3',
+					'cover' => 'DSC_5064.jpg',
+					'title' => 'Tijdens de les - 2010/2011 (deel 3)'),
+			Array(
 					'album' => '2010-lessen-2',
 					'cover' => 'DSC_4274.jpg',
 					'title' => 'Tijdens de les - 2010/2011 (deel 2)'),

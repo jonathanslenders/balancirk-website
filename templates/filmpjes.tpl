@@ -11,7 +11,20 @@
 {* begin edit *}
 <h2 style="margin: 10px;">Filmpjes</h2>
 
-<!-- ==================[ Optreden eindvoorstelling Balancirk ]===================  -->
+<!-- ==================[ Optreden eindvoorstelling Balancirk 2010 ]===================  -->
+
+<p style="text-align: center;">
+<object
+		data="http://vimeo.com/moogaloop.swf?clip_id=24966699&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1"
+		style="width:506px; height:380px;"
+		type="application/x-shockwave-flash">
+	<param name="allowfullscreen" value="true"/>
+	<param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=24966699&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" />
+	<param name="allowscriptaccess" value="always"/>
+</object>
+</p>
+
+<!-- ==================[ Optreden eindvoorstelling Balancirk 2009 ]===================  -->
 
 <p style="text-align: center;">
 <object

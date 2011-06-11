@@ -6,31 +6,14 @@ if (function_exists('Dwoo_Plugin_escape')===false)
 	$this->getLoader()->loadPlugin('escape');
 /* end template head */ ob_start(); /* template body */ ;
 '';// checking for modification in file:templates/base.tpl
-if (!("1307300873" == filemtime('templates/base.tpl'))) { ob_end_clean(); return false; };?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+if (!("1307470127" == filemtime('templates/base.tpl'))) { ob_end_clean(); return false; };?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
 <html xmlns="http://www.w3.org/1999/xhtml"> 
     <head> 
         <meta http-equiv="content-type" content="text/html;charset=utf-8" /> 
         <title>Balancirk</title> 
- 
-        <!--
-    ====================================================================================
- 
-    www.balancirk.be website:
-        - Grafisch ontwerp: Copyright (c) 2010 - I. Swinnen
-        - HTML/CSS: Jonathan Slenders
-        - Tekst-inhoud: Balancirk VZW
- 
-    Niets van deze website mag gekopieerd worden zonder toestemming van Balancirk.
- 
-    ====================================================================================
---> 
-<meta name="author" content="Balancirk" /> 
-<meta name="keywords" content="balancirk, ballancirk,
-    ballancirque, balancirque, ballencirk, circus, belgie, limburg" /> 
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
-<link rel="shortcut icon" href="/favicon.png" type="image/png" /> 
-<link rel="icon" href="/favicon.png" type="image/png" /> 
-<meta name="description" content="Balancirk - gedreven door de magie van het circus!" /> 
+
+	<?php echo Dwoo_Plugin_include($this, 'meta.tpl', null, null, null, '_root', null);?>
+
  
  
         <style type="text/css" media="screen"> 
@@ -56,6 +39,8 @@ if (!("1307300873" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
  
  
             body, html {
+				margin: 0;
+				padding: 0;
 				min-width: 1000px;
 				height: 100%;
             	font-size: 11pt;
@@ -75,13 +60,15 @@ if (!("1307300873" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
             #container1 { 
 				margin-top: -77px;
                 background-image: url('graphics/background-right.png');
-                background-position: right center; background-repeat: no-repeat;}
+                background-position: right bottom; background-repeat: no-repeat;}
             #container2 {
 				height: 800px;
                 background-image: url('graphics/background-left.png');
                 background-position: left center; background-repeat: no-repeat; }
             #container3 {
-                min-height: 500px; padding: 100px 30px 0px 65px; }
+  /*              min-height: 500px;
+*/
+		padding: 100px 0 0 65px; }
 
 			.copyright { background-color: #df2b1e; padding: 3px 20px 3px 150px; color: white; font-size: 90%; }
 
@@ -130,7 +117,7 @@ if (!("1307300873" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
                     background-image: none; }
  
             #content {
-					padding-right: 280px;
+					padding-right: 310px;
                     color: #68a323;
 					height: 630px;
                     overflow-x: hidden;
@@ -185,7 +172,7 @@ if (!("1307300873" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
                 padding: .2em;
                 background-image: url("/graphics/40p.png");
             }
-            div#picture-list span img { padding-top: .5em; }
+            div#picture-list span img { padding-top: .5em; vertical-align: middle; padding: 4px; }
  
             div#picture-list span a { font-weight: bold; text-decoration: none; }
             div#picture-list span a:hover { text-decoration: none; }
@@ -197,7 +184,7 @@ if (!("1307300873" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
  
             
 /*
-				.weird_shape div { background-color: blue; opacity: .2; }
+		.weird_shape div { background-color: blue; opacity: .2; }
 */
  
 			
@@ -207,12 +194,16 @@ if (!("1307300873" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
             <style type="text/css">
                 ul#menu li { display: inline; }
                 ul#menu li a { text-decoration: none; }
-                ul#menu li ul { top: 100%; }
+                /* ul#menu li ul { top: 100%; } */
             </style>
         <![endif]--> 
  
         <!--[if IE 6]>
             <style type="text/css">
+				#menu { position: absolute;
+					top: -30px;
+				}
+				#container3 { padding-top: 140px; }
                 #menu li { background: none transparent !important; }
                 #menu li {  float: left; width: 120px; margin: 0 -10px; padding: 0; background-image: none; }
                 #menu li.menu_links, #menu li.menu_contact {  width: 80px; }
@@ -223,7 +214,6 @@ if (!("1307300873" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
                 /* img, div { behavior: url(downloads/iepngfix.htc); } */ 
             </style>
         <![endif]--> 
- 
  
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script> 
     </head> 
@@ -286,7 +276,7 @@ if ($this->isArray($_loop0_data) === true)
 		$_loop0_scope = $this->setScope(array("-loop-"));
 /* -- loop start output */
 ?>
-			<span style="min-height: 150px;"><a href="?album=<?php echo Dwoo_Plugin_escape($this, (isset($this->scope["album"]) ? $this->scope["album"] : null), 'html', null);?>&amp;foto=<?php echo Dwoo_Plugin_escape($this, (isset($this->scope["foto"]) ? $this->scope["foto"] : null), 'html', null);?>">
+			<span><a href="?album=<?php echo Dwoo_Plugin_escape($this, (isset($this->scope["album"]) ? $this->scope["album"] : null), 'html', null);?>&amp;foto=<?php echo Dwoo_Plugin_escape($this, (isset($this->scope["foto"]) ? $this->scope["foto"] : null), 'html', null);?>">
 					<img src="/_albums/<?php echo Dwoo_Plugin_escape($this, (isset($this->scope["album"]) ? $this->scope["album"] : null), 'html', null);?>/thumb/<?php echo Dwoo_Plugin_escape($this, (isset($this->scope["foto"]) ? $this->scope["foto"] : null), 'html', null);?>" /></a></span>
 		<?php 
 /* -- loop end output */
@@ -315,6 +305,29 @@ if ($this->isArray($_loop0_data) === true)
 				<!--googleon: all-->
 			</div>
         </div> 
+		<script type="text/javascript">
+			/* Auto scale height */
+			(function() {
+				function scale () {
+					var height = $('body').height();
+
+					if (height < 800)
+					{
+						$('#container2').height(height - 35);
+						$('#content').height(height - 35 - 170);
+						$('#vertical-alignment-tool').css('margin-bottom', -(height/2 -5));
+					}
+					else
+					{
+						$('#container2').height('');
+						$('#content').height('');
+						$('#vertical-alignment-tool').css('margin-bottom', '');
+					}
+				}
+				$(window).resize(scale);
+				scale();
+			})();
+		</script>
     </body> 
 </html> 
  
