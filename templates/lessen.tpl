@@ -32,7 +32,8 @@
 			(Waarschijnlijk) in de sporthal van het college in Genk<br/>Weg naar As<br /> 3600 Genk.
 		</td>
 		<td>
-			Vrije&nbsp;basisschool Tuinwijk<br />Lazerijstraat&nbsp;120<br /> 3500 Hasselt.
+			<!-- Vrije&nbsp;basisschool Tuinwijk<br />Lazerijstraat&nbsp;120<br /> 3500 Hasselt. -->
+			Vrije basisschool Katarina<br />Jan Palfijnlaan 4<br /> 3500 Hasselt.
 		</td>
 	</tr>
 	<tr>
