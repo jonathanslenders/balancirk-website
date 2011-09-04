@@ -29,7 +29,7 @@
 			Vrije basisschool Katarina<br />Jan Palfijnlaan 4<br /> 3500 Hasselt.
 		</td>
 		<td>
-			(Waarschijnlijk) in de sporthal van het college in Genk<br/>Weg naar As<br /> 3600 Genk.
+			 sporthal van het college in Genk, zaal 2<br/>Collegelaan 1<br /> 3600 Genk.
 		</td>
 		<td>
 			<!-- Vrije&nbsp;basisschool Tuinwijk<br />Lazerijstraat&nbsp;120<br /> 3500 Hasselt. -->
@@ -51,8 +51,8 @@
 			<a href="#dinsdagavond">Beginnersgroep</a>
 		</td>
 		<td>
-			Beginnersgroep in de namiddag.
-			(meer info volgt.)
+			Beginnersgroep
+                        14u-15u15
 		</td>
 		<td>
 			<strong>10u - 11u</strong><br />
@@ -70,8 +70,8 @@
 			<a href="#dinsdagavond">Gevorderdengroep</a>
 		</td>
 		<td>
-			Gevorderdengroep in de namiddag.
-			(meer info volgt.)
+			Gevorderdengroep 
+			15u15-16u30
 		</td>
 		<td>
 			<strong>11u15-12u30</strong><br />
@@ -186,6 +186,8 @@ zijn vel voelen. De circomotoriek ondersteunt en stimuleert dit proces.</p>
 
 
 <p>&nbsp;</p>
+
+
 
 
 
