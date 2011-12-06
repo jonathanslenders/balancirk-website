@@ -91,8 +91,8 @@
 			&nbsp;
 		</td>
 		<td>
-			13u30-15u<br />
-			<a href="#productiegroep">Productiegroep</a>
+			<br />
+			<a href=></a>
 		</td>
 	</tr>
 </table>
@@ -137,8 +137,7 @@
 </P>
 
 
-
-<h3 id="dinsdagavond">Dinsdagavond: beginners en gevorderden</h3>
+<h3 id="beginners- en gevorderdenlessen">beginners- en gevorderdenlessen (1u15)</h3>
 <p>
 We werken per niveau met een minimumleeftijd van 7 jaar en een maximum aantal
 van 20 kinderen. Ons voltallig circusteam zal zich inzetten om de lessen in
@@ -173,19 +172,16 @@ zijn vel voelen. De circomotoriek ondersteunt en stimuleert dit proces.</p>
 <p>Wij verwelkomen alle kleuters vanaf geboortejaar 2008 met hun ouder.</p>
 
 
-<h3 id="productiegroep">Productiegroep</h3>
+<h3 id=</h3>
 <p>
-	Komend jaar willen we voor degenen die echt naar een circusshow willen
-	toewerken, verzamelen in de produktiegroep. Een grondige basiskennis is
-	vereist omdat we vooral het brengen van deze technieken centraal staat. Er
-	wordt extra aandacht besteed aan circustheater, en op verschillende
-	momenten zal een professionele regisseur het proces komen bijsturen.
-	De bedoeling is dan ook om uiteindelijk tot een voorstelling te komen die
-	we verschillende malen zullen spelen. 
+	
 </p>
 
 
 <p>&nbsp;</p>
+
+
+
 
 
 

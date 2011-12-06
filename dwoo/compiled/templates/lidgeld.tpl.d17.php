@@ -265,8 +265,7 @@ if (!("1307470127" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
 	<h2>Lidgeld</h2>
 	<p>
 		Het lidgeld voor de lessen van het schooljaar 2011 - 2012, kun je
-		met de volgende tabel berekenen. Het is inclusief verzekering: (nog
-		onder voorbehoud)
+		met de volgende tabel berekenen. Het is inclusief verzekering. Dit kan gestort worden op rekening van BalanCirk vzw: 001-5381790-15. September is proefmaand.
 	</p>
 	<table style="margin: 10px 40px;">
 		<tr><td>1u</td><td>140 euro voor een heel schooljaar</td></tr>
@@ -286,6 +285,7 @@ if (!("1307470127" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
 
 	<p style="margin-bottom: 0;">Met je BalanCirk lidkaart krijg je eveneens een korting van 10%<br /> bij <a
 	target="_blank" href="http://www.circusjojo.be">circuswinkel Circus JoJo</a>.</p>
+
 
 				</div> 
             	</div> 

@@ -4,31 +4,14 @@ if (function_exists('Dwoo_Plugin_include')===false)
 	$this->getLoader()->loadPlugin('include');
 /* end template head */ ob_start(); /* template body */ ;
 '';// checking for modification in file:templates/base.tpl
-if (!("1307387543" == filemtime('templates/base.tpl'))) { ob_end_clean(); return false; };?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+if (!("1307470127" == filemtime('templates/base.tpl'))) { ob_end_clean(); return false; };?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
 <html xmlns="http://www.w3.org/1999/xhtml"> 
     <head> 
         <meta http-equiv="content-type" content="text/html;charset=utf-8" /> 
         <title>Balancirk</title> 
- 
-        <!--
-    ====================================================================================
- 
-    www.balancirk.be website:
-        - Grafisch ontwerp: Copyright (c) 2010 - I. Swinnen
-        - HTML/CSS: Jonathan Slenders
-        - Tekst-inhoud: Balancirk VZW
- 
-    Niets van deze website mag gekopieerd worden zonder toestemming van Balancirk.
- 
-    ====================================================================================
---> 
-<meta name="author" content="Balancirk" /> 
-<meta name="keywords" content="balancirk, ballancirk,
-    ballancirque, balancirque, ballencirk, circus, belgie, limburg" /> 
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
-<link rel="shortcut icon" href="/favicon.png" type="image/png" /> 
-<link rel="icon" href="/favicon.png" type="image/png" /> 
-<meta name="description" content="Balancirk - gedreven door de magie van het circus!" /> 
+
+	<?php echo Dwoo_Plugin_include($this, 'meta.tpl', null, null, null, '_root', null);?>
+
  
  
         <style type="text/css" media="screen"> 
@@ -75,7 +58,7 @@ if (!("1307387543" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
             #container1 { 
 				margin-top: -77px;
                 background-image: url('graphics/background-right.png');
-                background-position: right center; background-repeat: no-repeat;}
+                background-position: right bottom; background-repeat: no-repeat;}
             #container2 {
 				height: 800px;
                 background-image: url('graphics/background-left.png');
@@ -199,7 +182,7 @@ if (!("1307387543" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
  
             
 /*
-				.weird_shape div { background-color: blue; opacity: .2; }
+		.weird_shape div { background-color: blue; opacity: .2; }
 */
  
 			
@@ -388,6 +371,7 @@ if (!("1307387543" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
 			</div>
         </div> 
 		<script type="text/javascript">
+			/* Auto scale height */
 			(function() {
 				function scale () {
 					var height = $('body').height();

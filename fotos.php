@@ -3,6 +3,18 @@
 	{
 		return Array(
 			Array(
+					'album' => '2011-lessen',
+					'cover' => 'DSC_7724.jpg',
+					'title' => 'Lessen 2011/2012'),
+			Array(
+					'album' => '2010-2011-conventie-brussel',
+					'cover' => 'DSC_2624.jpg',
+					'title' => 'Circusconventie Brussel (2010 en 2011)'),
+			Array(
+					'album' => '2011-07-kamp',
+					'cover' => 'DSC_6406.jpg',
+					'title' => 'Circuskamp juli 2011'),
+			Array(
 					'album' => '2011-show-mei',
 					'cover' => 'DSC_5997.jpg',
 					'title' => 'Eindshow 2011'),

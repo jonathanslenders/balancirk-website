@@ -5,7 +5,14 @@
 {block "body"}
 {* begin edit *}
 	<h2>Welkom</h2>
-
+	<p>
+	Het nieuwe circusjaar is weer volop bezig!<br />
+	Met extra multi- en specialisatielessen.
+	</p>
+	</p>
+		Raap je jongleergerief bijeen en poets je rode neus op voor weer een fijn circusjaar bij BalanCirk!
+	</p>
+<!--
 	<p>
 	Het nieuwe circusjaar komt er weer aan!<br />
 	Met extra multi- en specialisatielessen. 
@@ -15,11 +22,15 @@
 	Eveneens willen we dan (ten laatste!) ook de motivatiebrieven voor de
 	produktiegroep ontvangen.
 	<p>
-	</p>
-		Raap je jongleergerief dus bijeen en poets je rode neus op voor weer
-		een fijn circusjaar bij BalanCirk!
-	</p>
+-->
+<p><strong>Komende events:</strong></p>
+<ul><li>Zaterdag 14/01<br />
+<strong>Spaghetti-avond</strong> BalanCirk (Ontmoetingscentrum Sint-Catharina)<br/></li>
+<li>4 en 5 februari</br />
+<strong>Eenwielerconventie</strong> in het Dommelhof (Neerpelt)</li>
+</ul>
 
+<p><br/> </p>
 	<p>
 		<strong><a href="/lessen">Lessen voor 2011-2012 &raquo;</a></strong>
 	</p>
@@ -84,6 +95,9 @@ Balancirk's <strong>eerste spaghettidag</strong> komt er aan. Zaterdag, 22&nbsp;
 		Smakelijk!
 	</p>
 -->
+
+
+
 
 
 {* end edit *}

@@ -20,15 +20,14 @@ de verschillende technieken aan bod en werken we naar een eindvoorstelling toe.
 <p>De zomerkampen van 2011 i.s.m. stad Hasselt zijn op volgende data:</p>
 
 <ul>
-	<li>Eerste week van juli: circus-circuskamp</li>
-	<li>Tweede week van juli: circus-theaterkamp ism Circus Paljasso</li>
-	<li>Derde week van juli (18-24 juli): circus-turnkamp</li>
-	<li>Eerste week van augustus: circus-percussiekamp ism VZW Kundabuffi, Patrick Thijs</li>
-	<li>Derde week van Augustus (15-19 augustus): circus-circuskamp</li>
+	<li>Herstvakantie: mini-kamp (2dagen) Circus-Theater ism Circus Paljasso</li>
+	<li>Tweede week van de kerstvakantie: circuskamp </li>
+	
 </ul>
 <p> Je kunt inschrijven voor deze kampen via de sport dienst van de stad Hasselt. </p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
+
 
 
 
