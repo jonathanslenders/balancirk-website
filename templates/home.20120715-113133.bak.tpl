@@ -7,8 +7,8 @@
 	<h2>Welkom</h2>
 	<p>
 	Het Circus-jaar is jammergenoeg weer afgesloten. Maar we maken al druk plannen voor komend schooljaar.</p>
-Het aanbod wordt verder uitgebreid. <strong>De nieuwe lessenrooster staat online.</strong> Het komend circus-schooljaar zal maandag 10 september terug beginnen.</p>
-Ook willen we het schooljaar 2012-2013 feestelijk aanvangen met een heuse<strong> 'circus-avond' op zaterdag 8 september in de feestaal van middenschool Kindsheid Jesu.</strong> Hou deze datum alvast vrij, want naast lokaal talent komen enkele internationale artiesten naar Hasselt afgezakt om je te verbazen met hun technieken. Hedendaags circus van de bovenste plank! Namen worden nog bevestigd.
+Het aanbod wordt verder uitgebreid, <strong>De nieuwe lessenrooster staat online.</strong> Het komend circus-schooljaar zal maandag 10 september terug beginnen.</p>
+Ook willen we het komend schooljaar feestelijk aanvangen met een heuse<strong> 'circus-avond' </strong>(zaterdag 8 september. Hou deze datum alvast vrij, want naast lokaal talent komen enkele internationale talenten ook naar Hasselt afgezakt om je te verbazen met hun technieken. Hedendaags circus van de bovenste plank! Namen worden nog bevestigd.
 </p>
 Meer info volgt..
 	</p>
@@ -105,7 +105,6 @@ Balancirk's <strong>eerste spaghettidag</strong> komt er aan. Zaterdag, 22&nbsp;
 		Smakelijk!
 	</p>
 -->
-
 
 
 

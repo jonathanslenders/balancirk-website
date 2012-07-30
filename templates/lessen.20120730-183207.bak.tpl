@@ -56,7 +56,7 @@
 		</td>
 		<td>
 			<strong>17u45-19u</strong><br />
-                        Multi-beginners<br/> (5)
+                        Multi-beginners<br/> (4)
 		</td>
 		<td>
 			<strong>19u-21u</strong><br />
@@ -74,7 +74,7 @@
 	<tr>
 		<td>
 			<strong>19u15 - 20u45</strong><br />
-			<a href="#luchtacro">Specialisatie Luchtacro</a><br />
+			<a href="#luchtacro">Specialisatie Luchtacro</a>
 			(trapeze en doek) (1)
 		</td>
 		<td>
@@ -242,8 +242,6 @@ zijn vel voelen. De circomotoriek ondersteunt en stimuleert dit proces.</p>
 
 
 <p>&nbsp;</p>
-
-
 
 
 

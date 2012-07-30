@@ -7,11 +7,11 @@
 <h2>Wekelijkse lessen 2012-2013</h2>
 
 <table>
-    <tr><td>1</td><td>Vrije basisschool Tuinwijk<br />Lazarijstraat 120<br /> 3500 Hasselt.</td></tr>
-    <tr><td>2</td><td>Vrije basisschool Katarina<br />Jan Palfijnlaan 4<br /> 3500 Hasselt.</td></tr>
-    <tr><td>3</td><td>Sporthal van het college in Genk, zaal 2<br/>Collegelaan 1<br /> 3600 Genk.</td></tr>
-    <tr><td>4</td><td>Genk Waterschei, Schoolstraat 2</td></tr>
-    <tr><td>5</td><td>Houthalen/Zonhoven</td></tr>
+    <th>1</th><td>1. Vrije basisschool Tuinwijk<br />Lazarijstraat 120<br /> 3500 Hasselt.</td>
+    <th>2</th><td>2. Vrije basisschool Katarina<br />Jan Palfijnlaan 4<br /> 3500 Hasselt.</td>
+    <th>3</th><td>3. Sporthal van het college in Genk, zaal 2<br/>Collegelaan 1<br /> 3600 Genk.</td>
+    <th>4</th><td>4. Genk Waterschei, Schoolstraat 2</td>
+    <th>5</th><td>5. Houthalen/Zonhoven</td>
 </table>
 
 <table style="margin: 3em 0;">
@@ -56,7 +56,7 @@
 		</td>
 		<td>
 			<strong>17u45-19u</strong><br />
-                        Multi-beginners<br/> (5)
+                        Multi-beginners<br/> (4)
 		</td>
 		<td>
 			<strong>19u-21u</strong><br />
@@ -74,7 +74,7 @@
 	<tr>
 		<td>
 			<strong>19u15 - 20u45</strong><br />
-			<a href="#luchtacro">Specialisatie Luchtacro</a><br />
+			<a href="#luchtacro">Specialisatie Luchtacro</a>
 			(trapeze en doek) (1)
 		</td>
 		<td>
@@ -242,9 +242,6 @@ zijn vel voelen. De circomotoriek ondersteunt en stimuleert dit proces.</p>
 
 
 <p>&nbsp;</p>
-
-
-
 
 
 

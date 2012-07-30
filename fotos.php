@@ -3,6 +3,10 @@
 	{
 		return Array(
 			Array(
+					'album' => 'gert-en-karolien',
+					'cover' => '1.jpg',
+					'title' => 'Show Gert en Karolien'),
+			Array(
 					'album' => '2012-show',
 					'cover' => 'DSC_8609.jpg',
 					'title' => 'Eindshow 2012'),

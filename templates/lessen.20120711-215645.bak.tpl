@@ -4,15 +4,7 @@
 
 {block "body"}
 {* begin edit *}
-<h2>Wekelijkse lessen 2012-2013</h2>
-
-<table>
-    <tr><td>1</td><td>Vrije basisschool Tuinwijk<br />Lazarijstraat 120<br /> 3500 Hasselt.</td></tr>
-    <tr><td>2</td><td>Vrije basisschool Katarina<br />Jan Palfijnlaan 4<br /> 3500 Hasselt.</td></tr>
-    <tr><td>3</td><td>Sporthal van het college in Genk, zaal 2<br/>Collegelaan 1<br /> 3600 Genk.</td></tr>
-    <tr><td>4</td><td>Genk Waterschei, Schoolstraat 2</td></tr>
-    <tr><td>5</td><td>Houthalen/Zonhoven</td></tr>
-</table>
+<h2>Wekelijkse lessen</h2>
 
 <table style="margin: 3em 0;">
 	<tr>
@@ -31,10 +23,28 @@
 		<th>
 			Vrijdag
 		</th>
-                <th>&nbsp;</th>
 		<th>
 			Zondag
 		</th>
+	</tr>
+	<tr>
+		<td>
+			Vrije basisschool Tuinwijk<br />Lazerijstraat 120<br /> 3500 Hasselt.
+		</td>
+		<td>
+			Vrije basisschool Katarina<br />Jan Palfijnlaan 4<br /> 3500 Hasselt.
+		</td>
+		<td>
+			 sporthal van het college in Genk, zaal 2<br/>Collegelaan 1<br /> 3600 Genk.
+		</td>
+                <td>&nbsp;</td>
+		<td>
+			Vrije basisschool Tuinwijk<br />Lazerijstraat 120<br /> 3500 Hasselt.
+                </td>
+                <td>&nbsp;</td>
+                <td>
+			Vrije basisschool Katarina<br />Jan Palfijnlaan 4<br /> 3500 Hasselt.
+		</td>
 	</tr>
 	<tr>
 		<th colspan="4" style="height: 1px;">
@@ -44,23 +54,23 @@
 	<tr>
 		<td>
 			<strong>17u45 - 19u</strong><br />
-			<a href="#eenwieler">Specialisatie &eacute;&eacute;nwieler</a> (1)
+			<a href="#eenwieler">Specialisatie &eacute;&eacute;nwieler</a>
 		</td>
 		<td>
 			<strong>17u45 - 19u</strong><br />
-			<a href="#dinsdagavond">Beginnersgroep</a> (2)
+			<a href="#dinsdagavond">Beginnersgroep</a>
 		</td>
 		<td>
-			<strong>14u-15u15</strong><br /> 
-                        Multi-beginners (3)
+			<strong>14u-15u15</strong>
+                        Multi-beginners
 		</td>
 		<td>
-			<strong>17u45-19u</strong><br />
-                        Multi-beginners<br/> (5)
+			<strong>17u45-19u</strong>
+                        Multi-beginners<br/> (Zonhoven of Houthalen Helchteren,<br/> onder voorbehoud)
 		</td>
 		<td>
-			<strong>19u-21u</strong><br />
-                        Productiegroep (1)
+			<strong>19u-21u</strong>
+                        Productiegroep
 		</td>
 		<td>
 			&nbsp;
@@ -68,26 +78,26 @@
 		<td>
 			<strong>10u - 10u45</strong><br />
 			<a href="#circomotoriek">Circomotoriek</a>.<br />
-                        Kleuters 2008/2009 (2)
+                        Kleuters 2008/2009
 		</td>
 	</tr>
 	<tr>
 		<td>
 			<strong>19u15 - 20u45</strong><br />
-			<a href="#luchtacro">Specialisatie Luchtacro</a><br />
-			(trapeze en doek) (1)
+			<a href="#luchtacro">Specialisatie Luchtacro</a>
+			(trapeze en doek)
 		</td>
 		<td>
 			<strong>19u15 - 20u30</strong><br />
-			<a href="#dinsdagavond">Multi-gevorderden</a> (2)
+			<a href="#dinsdagavond">Multi-gevorderden</a>
 		</td>
 		<td>
 			<strong>16u - 17u15</strong><br />
-			Multi-beginners (4)
+			Multi-beginners
 		</td>
 		<td>
 			<strong>20u-21u30</strong><br />
-			Circusacro 16+<br/> (2)
+			Circusacro 16+<br/>Katarina
 		</td>
 		<td>
 			&nbsp;
@@ -97,7 +107,7 @@
 		</td>
 		<td>
 			<strong>11u-12u</strong><br />
-                        Kleuters 2006/2007 (2)
+                        Kleuters 2006/2007
 		</td>
 	</tr>
 	<tr>
@@ -106,35 +116,7 @@
 		</td>
 		<td>
 			<strong>20u30-21u30</strong><br />
-			3 modules van 5 lessen:<br/>jongleren, evenwicht, acro<br />(concrete data volgen) (2)
-		</td>
-		<td>
-			&nbsp;
-		</td>
-		<td>
-			&nbsp;
-		</td>
-		<td>
-			&nbsp;
-		</td>
-		<td>
-			&nbsp;
-		</td>
-		<td>
-			<strong>12u15-13u30</strong><br />
-                        Multi-beginners. (2)
-		</td>
-	</tr>
-	<tr>
-		<td>
-			&nbsp;
-		</td>
-		<td>
-			<strong>20u30-21u30</strong><br />
-			<a href="#vrij-oefenen">Vrij oefenen</a> (2)
-		</td>
-		<td>
-			&nbsp;
+			<a href="#vrij-oefenen">Vrij oefenen</a>
 		</td>
 		<td>
 			&nbsp;
@@ -172,7 +154,7 @@
 </p>
 
 
-<h3 id="luchtacro">Specialisatie Luchtacro (1u30)</h3>
+<h3 id="luchtacro">Specialisatie Luchtacro (1u15)</h3>
 
 <p>
 	Deze specialisatie is voor acrobaten die geen hoogtevrees hebben. Na een
@@ -180,16 +162,8 @@
 	Via opdrachten en oefeningen werken we aan techniek, en aan het mooi
 	brengen hiervan.  Lenigheid en kracht zijn belangrijk bij deze
 	disciplines.<br />
-	Inschrijven kan vanaf 10 jaar.
+	Inschrijven kan vanaf 7 jaar.
 </p>
-
-<h3 id="circusacro 16+">Specialisatie Circusacro 16+ (1u30)</h3>
-
-<p>
-	In deze specialisatie richten we ons tot jongeren en volwassenen met of zonder ervaring. Naast lenigheid en kracht, zijn vertrouwen, plezier maken, samenwerken en durven proberen in een veilig kader, belangrijk in deze lessen.<p>
- Na een stevige, maar plezante opwarming en een evenwichtsgedeelte, komen duo-oefeningen (acro-porté) en groepsopdrachten (piramides) aan bod.
-.<p> </p>
-
 
 
 <h3 id="vrij-oefenen">Vrij oefenen</h3>
@@ -231,8 +205,7 @@ en omgeving. Ontwikkelen is groeien naar vrijheid en zelfstandigheid binnen de
 grenzen van de eigen talenten en mogelijkheden. Hiertoe moet men zich goed in
 zijn vel voelen. De circomotoriek ondersteunt en stimuleert dit proces.</p>
 
-<p>Wij verwelkomen alle kleuters vanaf geboortejaar 2009 met hun ouder.<p>
-<p>De kleuterlesjes worden vanaf dit schooljaar opgedeeld. De oudste kleuters krijgen vanaf januari 2013 (zonder ouders) een voorsmaakje van hoe we met de 'groten' circussen. Zo kunnen ze zelf ontdekken of ze willen doorgroeien naar de multilessen van de beginners.</p>
+<p>Wij verwelkomen alle kleuters vanaf geboortejaar 2008 met hun ouder.</p>
 
 
 <h3 id=</h3>
@@ -242,17 +215,6 @@ zijn vel voelen. De circomotoriek ondersteunt en stimuleert dit proces.</p>
 
 
 <p>&nbsp;</p>
-
-
-
-
-
-
-
-
-
-
-
 
 
 

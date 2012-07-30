@@ -56,7 +56,7 @@
 		</td>
 		<td>
 			<strong>17u45-19u</strong><br />
-                        Multi-beginners<br/> (5)
+                        Multi-beginners<br/> (4)
 		</td>
 		<td>
 			<strong>19u-21u</strong><br />
@@ -242,7 +242,6 @@ zijn vel voelen. De circomotoriek ondersteunt en stimuleert dit proces.</p>
 
 
 <p>&nbsp;</p>
-
 
 
 

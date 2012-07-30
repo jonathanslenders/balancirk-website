@@ -39,7 +39,7 @@
 -->
 
 <!-- ==================[ The Life of a juggler ]===================  -->
-<!--
+
 <p style="text-align: center;">
 <object
 		data="http://vimeo.com/moogaloop.swf?clip_id=6262965&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1"
@@ -51,7 +51,7 @@
 	<param name="allowscriptaccess" value="always"/>
 </object>
 </p>
--->
+
 
 <!-- ==================[ Mini tandem ]===================  -->
 {*
@@ -70,7 +70,6 @@
 
 
 *}
-
 
 
 {* end edit *}

@@ -4,7 +4,7 @@ if (function_exists('Dwoo_Plugin_include')===false)
 	$this->getLoader()->loadPlugin('include');
 /* end template head */ ob_start(); /* template body */ ;
 '';// checking for modification in file:templates/base.tpl
-if (!("1307470127" == filemtime('templates/base.tpl'))) { ob_end_clean(); return false; };?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+if (!("1307633640" == filemtime('templates/base.tpl'))) { ob_end_clean(); return false; };?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
 <html xmlns="http://www.w3.org/1999/xhtml"> 
     <head> 
         <meta http-equiv="content-type" content="text/html;charset=utf-8" /> 
@@ -286,7 +286,7 @@ if (!("1307470127" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
 			Vrije basisschool Katarina<br />Jan Palfijnlaan 4<br /> 3500 Hasselt.
 		</td>
 		<td>
-			(Waarschijnlijk) in de sporthal van het college in Genk<br/>Weg naar As<br /> 3600 Genk.
+			 sporthal van het college in Genk, zaal 2<br/>Collegelaan 1<br /> 3600 Genk.
 		</td>
 		<td>
 			<!-- Vrije&nbsp;basisschool Tuinwijk<br />Lazerijstraat&nbsp;120<br /> 3500 Hasselt. -->
@@ -308,8 +308,8 @@ if (!("1307470127" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
 			<a href="#dinsdagavond">Beginnersgroep</a>
 		</td>
 		<td>
-			Beginnersgroep in de namiddag.
-			(meer info volgt.)
+			Beginnersgroep
+                        14u-15u15
 		</td>
 		<td>
 			<strong>10u - 11u</strong><br />
@@ -327,8 +327,8 @@ if (!("1307470127" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
 			<a href="#dinsdagavond">Gevorderdengroep</a>
 		</td>
 		<td>
-			Gevorderdengroep in de namiddag.
-			(meer info volgt.)
+			Gevorderdengroep 
+			15u15-16u30
 		</td>
 		<td>
 			<strong>11u15-12u30</strong><br />
@@ -348,8 +348,8 @@ if (!("1307470127" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
 			&nbsp;
 		</td>
 		<td>
-			13u30-15u<br />
-			<a href="#productiegroep">Productiegroep</a>
+			<br />
+			<a href=></a>
 		</td>
 	</tr>
 </table>
@@ -394,8 +394,7 @@ if (!("1307470127" == filemtime('templates/base.tpl'))) { ob_end_clean(); return
 </P>
 
 
-
-<h3 id="dinsdagavond">Dinsdagavond: beginners en gevorderden</h3>
+<h3 id="beginners- en gevorderdenlessen">beginners- en gevorderdenlessen (1u15)</h3>
 <p>
 We werken per niveau met een minimumleeftijd van 7 jaar en een maximum aantal
 van 20 kinderen. Ons voltallig circusteam zal zich inzetten om de lessen in
@@ -430,19 +429,18 @@ zijn vel voelen. De circomotoriek ondersteunt en stimuleert dit proces.</p>
 <p>Wij verwelkomen alle kleuters vanaf geboortejaar 2008 met hun ouder.</p>
 
 
-<h3 id="productiegroep">Productiegroep</h3>
+<h3 id=</h3>
 <p>
-	Komend jaar willen we voor degenen die echt naar een circusshow willen
-	toewerken, verzamelen in de produktiegroep. Een grondige basiskennis is
-	vereist omdat we vooral het brengen van deze technieken centraal staat. Er
-	wordt extra aandacht besteed aan circustheater, en op verschillende
-	momenten zal een professionele regisseur het proces komen bijsturen.
-	De bedoeling is dan ook om uiteindelijk tot een voorstelling te komen die
-	we verschillende malen zullen spelen. 
+	
 </p>
 
 
 <p>&nbsp;</p>
+
+
+
+
+
 
 
 
