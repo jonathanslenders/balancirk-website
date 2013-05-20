@@ -48,7 +48,7 @@
 		</td>
 		<td>
 			<strong>17u45 - 19u</strong><br />
-			<a href="#dinsdagavond">Beginnersgroep</a> (2)
+			<a href="#dinsdagavond">Multi-Beginnersgroep</a> (2)
 		</td>
 		<td>
 			<strong>14u-15u15</strong><br /> 
@@ -199,7 +199,7 @@
 </P>
 
 
-<h3 id="beginners- en gevorderdenlessen">beginners- en gevorderdenlessen (1u15)</h3>
+<h3 id="multi-beginners- en gevorderdenlessen">beginners- en gevorderdenlessen (1u15)</h3>
 <p>
 We werken per niveau met een minimumleeftijd van 7 jaar en een maximum aantal
 van 20 kinderen. Ons voltallig circusteam zal zich inzetten om de lessen in
@@ -242,6 +242,7 @@ zijn vel voelen. De circomotoriek ondersteunt en stimuleert dit proces.</p>
 
 
 <p>&nbsp;</p>
+
 
 
 

@@ -6,20 +6,48 @@
 {* begin edit *}
 	<h2>Welkom</h2>
 	<p>
-	Het Circus-jaar is jammergenoeg weer afgesloten. Maar we maken al druk plannen voor komend schooljaar.</p>
-Het aanbod wordt verder uitgebreid. <strong>De nieuwe lessenrooster staat online.</strong> Het komend circus-schooljaar zal maandag 10 september terug beginnen.</p>
-Ook willen we het schooljaar 2012-2013 feestelijk aanvangen met een heuse<strong> 'circus-avond' op zaterdag 8 september in de feestaal van middenschool Kindsheid Jesu.</strong> Hou deze datum alvast vrij, want naast lokaal talent komen enkele internationale artiesten naar Hasselt afgezakt om je te verbazen met hun technieken. Hedendaags circus van de bovenste plank! Namen worden nog bevestigd.
-</p>
-Meer info volgt..
-	</p>
+	Druk oefenend, maken we ons klaar voor ons jaarlijkse optreden; de eindshow..</p>
+Deze gaat door <strong>27 april 2013 om 14u en om 19u </strong>in de vaste locatie, middenschool kindsheid Jesu, Kempische steenweg 400.
+Iedereen welkom om te komen kijken naar het plezier dat circus kan zijn voor jong en oud in een spektakel genaamd <strong>"doos, doosde, gedoost"</strong> <p> C'est pas encore tout a fait dans la boite, maar het programma ziet alvast als volgt uit: <p><strong>namiddagvoorstelling</strong></p>kleutergroepen 3-5j<p>beginners dinsdag <p> beginners Genk <p> beginners zondag <p> en luchtacro beginners<p> <p><p><strong>avondvoorstelling</strong></p>kleuters 5-6j <p>beginners Waterschei<p> acro-groepje<p>gevorderden<p> gevorderden luchtacro<p><p><strong> kassa:</strong> 7.5euro/voorstelling,<P> <strong>vvk:</strong> 5 euro/voorstelling of 7.5/voor de beide. reservaties via info@balancirk.be en bijhorende betaling<strong> vóór 24 april</strong> op rek nr 001-5381790-15 met vermelding van naam en gekozen voorstelling(en)<p><strong>
+Voor meer info,</strong> mail info@balancirk.be , en een echte uitnodiging komt er spoedig aan.
 
 
-	
-	</p>
 
 
 <!--
-	<p>
+	<div style="padding: 3px; background-color: #BFD5B1; color: #5D7F2B;">
+<p>
+De voorlopig bevestigde artiesten zijn: Productiegroep BalanCirk,de skjééve smééte, Gert en Karolien, de sjarel, Moises en circustheater de paraplu.
+</p>
+<p>
+<strong>de skjéve smééte met voorstelling: "stipt"</strong>
+Bij avondschemering wordt het wat broeierig in het Grote Toverbos. Opgezweept door de cadans van de trommels en het zinderende geluid van de ontwakende nachtdiertjes schieten de paddenstoelen als bij toverslag uit de grond. De konijntjes verlaten zenuwachtig hun holletjes en dansen er sierlijk om heen. ‘Stipt’ als altijd maken de paddenstoelen even tijd voor hun slaapritueel.</p>
+ 
+‘Stipt’ is een miniproductie vol fris en wervelend jongleergeweld, voor elk zaalpubliek toegankelijk. ‘Stipt’ sleept je mee in een roes van techniek en humor met een knipoog naar de zorgenloze momenten in het leven.</p>
+<p>
+
+<strong>"De Charel"</strong>, het overmoedige typetje dat Charel Lievens sinds enkele jaren met 
+veel succes neerzet, is moeilijk onder één noemer te vatten: Circusartiest, clown, komediant, …. 
+</p>
+<p><strong>MOISES </strong>
+100% autodidacte jongleur...........vous peut aussi le faire........100% autodidacta malabarista ...........tu tambien puedes hacerlo.......... 
+</p>
+
+<a href="/album?album=gert-en-karolien"><img style="float: right; padding: 3px;" src="/_albums/gert-en-karolien/thumb/3.jpg" /></a>
+<strong>Gert en Karolien.</strong><br/>
+</p>
+<p>
+<strong>De Paraplu</strong> is een energieke circustheatergroep van enthousiaste jongeren die het jeugdcircus voorbij zijn, maar onder de paraplu van Circus Rotjeknor (Rotterdam) een eigen voorstelling zijn gaan maken.<br />
+De Paraplu bestaat uit Andrea, Anne, Iris, Jermaine, Renée, David, Susanne, Lieske en Tom. </p>
+<p>
+Het begon al jaren geleden toen ze als kleine artiesten begonnen bij Circus Rotjeknor. Inmiddels zijn ze uitgegroeid tot studenten, maar willen wel graag circus blijven maken. Daarom zijn ze zonder begeleider verder gegaan met hun hobby. Na een eerste, erg leuk, jaar werken in deze groep hebben ze besloten om voorlopig nog zo verder te gaan!</p>
+<p>
+Op 24 september 2011 deed De Paraplu mee aan het Nederlands Kampioenschap Jongleren. Hun act is uitgeroepen tot de beste jongleeract van Nederland!
+</p>
+</div>
+
+
+<p>
 	Het nieuwe circusjaar is weer volop bezig!<br />
 	Met extra multi- en specialisatielessen.
 	</p>
@@ -103,8 +131,18 @@ Balancirk's <strong>eerste spaghettidag</strong> komt er aan. Zaterdag, 22&nbsp;
 	</ul>
 	<p>
 		Smakelijk!
-	</p>
+	</p> bestellingen kunnen nog worden doorgemaild tem 6 januari.</p>
+Verderop staat de éénwielerconventie ook weer te wachten (inschrijvingen lopen tem 14 januari)</p>
+</p>
+En voor de creatievelingen, praktische denkers, is er binnenkort een eerste brainstorm rond de eindshow.
+
 -->
+
+
+
+
+
+
 
 
 
