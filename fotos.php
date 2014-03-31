@@ -3,6 +3,10 @@
 	{
 		return Array(
 			Array(
+					'album' => '2014-show',
+					'cover' => 'DSC_1128.jpg',
+					'title' => 'Show 2014'),
+			Array(
 					'album' => '2013-eindshow',
 					'cover' => 'DSC_0516.jpg',
 					'title' => 'Eindshow 2013'),
