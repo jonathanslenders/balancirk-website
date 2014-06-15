@@ -4,14 +4,14 @@
 
 {block "body"}
 {* begin edit *}
-<h2>Wekelijkse lessen 2012-2013</h2>
+<h2>Wekelijkse lessen 2014-2015</h2>
 
 <table>
     <tr><td>1</td><td>Vrije basisschool Tuinwijk<br />Lazarijstraat 120<br /> 3500 Hasselt.</td></tr>
     <tr><td>2</td><td>Vrije basisschool Katarina<br />Jan Palfijnlaan 4<br /> 3500 Hasselt.</td></tr>
     <tr><td>3</td><td>Sporthal van het college in Genk, zaal 2<br/>Collegelaan 1<br /> 3600 Genk.</td></tr>
-    <tr><td>4</td><td>Genk Waterschei, Schoolstraat 2</td></tr>
-    <tr><td>5</td><td>Houthalen/Zonhoven</td></tr>
+    <!--<tr><td>4</td><td>Genk Waterschei, Schoolstraat 2</td></tr>-->
+    <tr><td>4</td><td>Don Bosco Laveu, Liège</td></tr>
 </table>
 
 <table style="margin: 3em 0;">
@@ -40,64 +40,64 @@
 		<th colspan="4" style="height: 1px;">
 			&nbsp;
 		</th>
+	</tr>
 	<tr>
-	<tr>
 		<td>
-			<strong>17u45 - 19u</strong><br />
-			<a href="#eenwieler">Specialisatie &eacute;&eacute;nwieler</a> (1)
+			<strong>17u45 - 19u15</strong><br />
+			<a href="#luchtacro_niveau_1">Luchtacro niveau 1</a> (1)
 		</td>
 		<td>
-			<strong>17u45 - 19u</strong><br />
-			<a href="#dinsdagavond">Multi-Beginnersgroep</a> (2)
+			<strong>17u30 - 18u45</strong><br />
+			<a href="#multi">Multi (7-12&nbsp;jaar)</a> (2)
 		</td>
 		<td>
-			<strong>14u-15u15</strong><br /> 
-                        Multi-beginners (3)
+			<strong>13u30 - 14u45</strong><br />
+			<a href="#multi">Multi (7-12&nbsp;jaar) Genk</a> (3)
 		</td>
 		<td>
-			<strong>17u45-19u</strong><br />
-                        Multi-beginners<br/> (5)
+			<strong>&nbsp;</strong><br /> 
+                        Luchtacro Liège - Polichinelle (4)
 		</td>
 		<td>
-			<strong>19u-21u</strong><br />
-                        Productiegroep (1)
+			<strong>17u45-19u15</strong><br />
+                        <a href="#monster-minuutjes">Monster minuutjes</a><br/> (1)
 		</td>
 		<td>
 			&nbsp;
 		</td>
 		<td>
 			<strong>10u - 10u45</strong><br />
-			<a href="#circomotoriek">Circomotoriek</a>.<br />
-                        Kleuters 2008/2009 (2)
+			<a href="#circomotoriek">Circomotoriek 1</a>.<br />
+                        (3-4&nbsp;jaar) (2)
 		</td>
 	</tr>
 	<tr>
 		<td>
 			<strong>19u15 - 20u45</strong><br />
-			<a href="#luchtacro">Specialisatie Luchtacro</a><br />
-			(trapeze en doek) (1)
+			<a href="#luchtacro_niveau_2">Luchtacro niveau 2</a> (1)
 		</td>
 		<td>
-			<strong>19u15 - 20u30</strong><br />
-			<a href="#dinsdagavond">Multi-gevorderden</a> (2)
+			<strong>18u45 - 20u</strong><br />
+			<a href="#multi">Multi (12+)</a> (2)
 		</td>
 		<td>
-			<strong>16u - 17u15</strong><br />
-			Multi-beginners (4)
-		</td>
-		<td>
-			<strong>20u-21u30</strong><br />
-			Circusacro 16+<br/> (2)
+			<strong>14u45 - 16u</strong><br />
+			<a href="#multi">Multi (12+) Genk</a> (3)
 		</td>
 		<td>
 			&nbsp;
 		</td>
 		<td>
+			<strong>19u30-21u</strong><br />
+                        Productiegroep (1)
+		</td>
+		<td>
 			&nbsp;
 		</td>
 		<td>
-			<strong>11u-12u</strong><br />
-                        Kleuters 2006/2007 (2)
+			<strong>11u-11u45</strong><br />
+			<a href="#circomotoriek">Circomotoriek 2</a>.<br />
+                        (3-4&nbsp;jaar) (2)
 		</td>
 	</tr>
 	<tr>
@@ -105,8 +105,8 @@
 			&nbsp;
 		</td>
 		<td>
-			<strong>20u30-21u30</strong><br />
-			3 modules van 5 lessen:<br/>jongleren, evenwicht, acro<br />(concrete data volgen) (2)
+			<strong>20u15-21u30</strong><br />
+			<a href="#circuslabo_12_plus">Jongleerlabo,<br />Acro-labo</a> (2)
 		</td>
 		<td>
 			&nbsp;
@@ -121,8 +121,9 @@
 			&nbsp;
 		</td>
 		<td>
-			<strong>12u15-13u30</strong><br />
-                        Multi-beginners. (2)
+			<strong>12u-13u</strong><br />
+			<a href="#circomotoriek">Circomotoriek 3</a>.<br />
+                        (5-6&nbsp;jaar) (2)
 		</td>
 	</tr>
 	<tr>
@@ -130,10 +131,6 @@
 			&nbsp;
 		</td>
 		<td>
-			<strong>20u30-21u30</strong><br />
-			<a href="#vrij-oefenen">Vrij oefenen</a> (2)
-		</td>
-		<td>
 			&nbsp;
 		</td>
 		<td>
@@ -147,6 +144,10 @@
 		</td>
 		<td>
 			&nbsp;
+		</td>
+		<td>
+			<strong>13u15-14u30</strong><br />
+                        <a href="#multi">Multi-beginners. (7-12&nbsp;jaar)</a> (2)
 		</td>
 	</tr>
 </table>
@@ -160,88 +161,92 @@
 	<br />
 </p>
 
-<h3 id="eenwieler">Specialisatie &eacute;&eacute;nwieler (1u15)</h3>
-
-<p>
-	In deze lessen worden spelenderwijze verschillende basistechnieken van het
-	&eacute;&eacute;ieler-rijden aangeleerd zoals surplacen, springen, etc.. We
-	rijden in molentjes, als een slang of spelen een
-	&eacute;&eacute;nwielerbasketwedstrijd.<br />
-	Basisvereiste om in te schrijven voor deze specialisatie is zelfstandig
-	kunnen rijden en opstappen.
-</p>
 
 
-<h3 id="luchtacro">Specialisatie Luchtacro (1u30)</h3>
+<h3 id="luchtacro_niveau_1">Specialisatie Luchtacro : niveau 1(1u30)</h3>
 
 <p>
 	Deze specialisatie is voor acrobaten die geen hoogtevrees hebben. Na een
 	stevige opwarming leren we acrobatische toeren op de trapeze of in de doek.
-	Via opdrachten en oefeningen werken we aan techniek, en aan het mooi
+	Via opdrachten en oefeningen leren we de basistruks van de trapeze en de doek, en het mooi
 	brengen hiervan.  Lenigheid en kracht zijn belangrijk bij deze
 	disciplines.<br />
 	Inschrijven kan vanaf 10 jaar.
 </p>
 
-<h3 id="circusacro 16+">Specialisatie Circusacro 16+ (1u30)</h3>
+<h3 id="luchtacro_niveau_2">Specialisatie Luchtacro : niveau 2(1u30)</h3>
 
+<p>    De meer gevorderde luchtacrobaten kunnen terecht bij niveau 2. Na een nog stevigere opwarming, wordt er met de technieken doek, trapeze en bascule gewerkt.. 
+De technieken worden verder verfijnd via opdrachten waarbij we rekenen op een basisvocabularium aan de trapeze en doek. Souplesse, en kracht zijn een vast onderdeel van de les, waarbij we onze grenzen ook echt willen verleggen!
+</p>
+
+<h3 id="circuslabo_12_plus">Circuslabo 12+ (1u15)</h3>
+
+<p>Voor degenen die echt weten wat ze willen is er het circuslabo!<p>
+In het circuslabo kan je wekelijks werken aan een circusdiscipline van jouw keuze (jongleren, evenwicht, acro,...*). Bij het begin van het jaar kies je voor één discipline waar je gedurende het jaar aan wil werken. Via individuele begeleiding kan je aan je techniek werken en nieuwe ideëen opdoen. <p> Geen echt lesje maar eerder de plek om je uit te leven in jouw discipline, ondersteund en omkaderd door "krak in het vak" Hans Nickmans en Stan Grauwels.
+Hans staat in voor het jongleergedeelte en Stan  kan niet wachten om een 'extreme acrogroepje' te begeleiden doorheen de technieken van acro-portée, banquine,bascule etc. Evenwichtsfanaten (eenwieler, koorddansen) zullen zeker niet in de kou blijven staan!<p>
+
+*aangezien er reeds specialisatielessen luchtacro worden aangeboden, hier geen trapeze of doek dus.
+	
 <p>
-	In deze specialisatie richten we ons tot jongeren en volwassenen met of zonder ervaring. Naast lenigheid en kracht, zijn vertrouwen, plezier maken, samenwerken en durven proberen in een veilig kader, belangrijk in deze lessen.<p>
- Na een stevige, maar plezante opwarming en een evenwichtsgedeelte, komen duo-oefeningen (acro-porté) en groepsopdrachten (piramides) aan bod.
-.<p> </p>
 
 
-
-<h3 id="vrij-oefenen">Vrij oefenen</h3>
+<h3 id="multi">Multi circus (7-11j)(12+)(1u15)</h3>
 <p>
-	Oefenen is belangrijk in het leren van elke techniek.. Daarom bieden we de
-	ruimte om zelfstandig te komen trainen in de zaal.
-</P>
-
-
-<h3 id="multi-beginners- en gevorderdenlessen">beginners- en gevorderdenlessen (1u15)</h3>
-<p>
-We werken per niveau met een minimumleeftijd van 7 jaar en een maximum aantal
-van 20 kinderen. Ons voltallig circusteam zal zich inzetten om de lessen in
-goede banen te leiden. Om te weten in welke groep je het beste past kan je
-<a href="leerdoeleinden">de leerdoelen</a> bekijken. De doelstellingen van de
-beginnersgroep geven eveneens een goed beeld van de basiskennis die nodig is
-voor de gevorderdengroep.  </p>
+We werken met deze leeftijdsgroepen naar het (verder) verkennen van de verschillende circusdisciplines. Afwisselend zullen de deelnemers kennismaken met technieken uit de evenwichts-, jongleer- en acro-disciplines. Via spel en oefening wordt de basis van deze technieken aangereikt, maar  het fijn samen spelen en circussen is ook belangrijk op zich in de lessen.(groepsopdrachtjes, elkaar beveiligen, of je mening over een showtje geven)  </p>
 
 <p>
 De lessen zijn multidisciplinair wat wil zeggen dat de verschillende
 circustechnieken aan bod komen, zijnde: </p>
 
 <ul>
-<li>jongleren, diabolo, flowerstick, sigaardozen en bordjes draaien</li>
-<li>evenwichtstechnieken: éénwieler rijden, ton- en bal-lopen, slackrope</li>
+<li>jongleren, diabolo, flowerstick, sigaardozen, bordjes draaien, poï,lasso's,...</li>
+<li>evenwichtstechnieken: éénwieler rijden, ton- en bal-lopen, koorddansen, rolla-bolla's,evenwichtsladders</li>
 <li>acrobatie: grond en luchtacrobatie (trapeze en doek)</li>
 <li>circustheater</li>
 </ul>
 
 <p>
-Naast deze verschillende disciplines staan het spelelement en de groepssfeer
-centraal. Samenwerking, creativiteit en natuurlijk plezier maken vinden we
+ Samenwerking, creativiteit en natuurlijk plezier maken vinden we
 belangrijk.  </p>
 
-<h3 id="circomotoriek">Zondagvoormiddag: Circomotoriek</h3>
+<h3 id="circomotoriek"> Circomotoriek</h3>
 <p>
 In deze lesjes ontdekken kleuters samen met hun ouder spelenderwijs hun lichaam
 en omgeving. Ontwikkelen is groeien naar vrijheid en zelfstandigheid binnen de
 grenzen van de eigen talenten en mogelijkheden. Hiertoe moet men zich goed in
 zijn vel voelen. De circomotoriek ondersteunt en stimuleert dit proces.</p>
+<p>Via spelletjes en opdrachten, samen of juist tegen elkaar uit te voeren worden de jonge bengels uitgedaagd en gestimuleerd om hun beweeglijkheid/behendigheid te verkennen.</p>
+<p>Wij verwelkomen alle kleuters vanaf 3 jaar met hun ouder.</p>
+<p>De lesjes circomotoriek zijn in verschillende groepjes opgedeeld. De oudste kleuters krijgen vanaf januari (zonder ouders) een voorsmaakje van hoe we met de 'groten' circussen. Zo kunnen ze zelf ontdekken of ze willen doorgroeien naar de multilessen van de beginners.</p>
 
-<p>Wij verwelkomen alle kleuters vanaf geboortejaar 2009 met hun ouder.<p>
-<p>De kleuterlesjes worden vanaf dit schooljaar opgedeeld. De oudste kleuters krijgen vanaf januari 2013 (zonder ouders) een voorsmaakje van hoe we met de 'groten' circussen. Zo kunnen ze zelf ontdekken of ze willen doorgroeien naar de multilessen van de beginners.</p>
-
-
-<h3 id=</h3>
+<h3 id="monster-minuutjes">Monster minuutjes</h3>
 <p>
-	
+(Meer info volgt nog.)
 </p>
 
 
 <p>&nbsp;</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

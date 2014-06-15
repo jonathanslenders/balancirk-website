@@ -17,14 +17,14 @@ De <strong>kampen</strong> zullen vooral in de vakantieperiodes doorgaan en word
 samenwerking met andere partners georganiseerd (bv stad Hasselt). Hierbij komen
 de verschillende technieken aan bod en werken we naar een eindvoorstelling toe.
 </p>
-<p>De zomerkampen van 2011 i.s.m. stad Hasselt zijn op volgende data:</p>
-
+<p></p>
+Je kunt hiervoor inschrijven via de sport dienst van de stad Hasselt/ Genk. 
 <ul>
-	<li>Herstvakantie: mini-kamp (2dagen) Circus-Theater ism Circus Paljasso</li>
-	<li>Tweede week van de kerstvakantie: circuskamp </li>
+	<li>sportkampen hasselt: http://www.hasselt.be/nl/48/collections/809/sportkampen.html</li>
+	<li>Sportkampen Genk: http://www.genk.be/Dienstverlening_van_A_tot_Z/Producten_per_dienst/Sport_en_sportcentrum/Sportkampen_voor_jongeren</li>
 	
 </ul>
-<p> Je kunt inschrijven voor deze kampen via de sport dienst van de stad Hasselt. </p>
+<p> </p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 

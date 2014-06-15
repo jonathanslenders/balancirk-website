@@ -10,6 +10,10 @@
 {block "framed_body"}
 	<h2>Inschrijvingen</h2>
 
+<br />
+<iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dGVaUWI4LXctM010OHFTYzNaT25QdVE6MA" width="600" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+<!--
 	{if $error}
 		<p class="error">Gelieve alle veldjes in te vullen</p>
 	{/if}
@@ -74,4 +78,6 @@
 				<input type="submit" value="Inschrijven" /></p>
 		</form>
 	{/if}
+-->
+
 {/block}
